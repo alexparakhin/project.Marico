@@ -1,1 +1,1 @@
-# Clickme @https://alexparakhin.github.io/project.Marico/
+# Clickme https://alexparakhin.github.io/project.Marico/
