@@ -1,1 +1,1 @@
-# https://alexparakhin.github.io/project.Marico/
+# Clickme
