@@ -4,10 +4,135 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Marico</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello all</h1>
-    <img src="../projectfigma/img/mainblock/heading.jpg" alt="" />
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+					<!-- Шапка сайта -->
+          <div class="header__wrap">
+						 <!-- Логотип -->
+						<div class="header__logo">
+              <img
+                src="./images/home/logo.svg"
+                alt="Marico-logo"
+                class="header__img"
+              />
+              <p class="header__title">
+                <a class="header__link" href="./index.html">Marico</a>
+              </p>
+            </div>
+						<!-- Бургер-меню -->
+            <div class="burger">
+              <div class="burger__field" id="burger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+          <!-- Блок навигации -->
+         <nav class="header__nav" id="nav">
+         	   <ul class="nav-list" id="navList">
+	              <li class="nav-list__item">
+	                <a class="nav-list__link" href="#!">Use Cases</a>
+	              </li>
+	              <li class="nav-list__item">
+	                <a class="nav-list__link" href="#!">About</a>
+	              </li>
+	              <li class="nav-list__item">
+	                <a class="nav-list__link" href="#!">Pricing</a>
+	              </li>
+	              <li class="nav-list__item">
+	                <a class="nav-list__link" href="#!">Blog</a>
+	              </li>
+							</ul>
+								<!-- Кнопки -->
+								<div class="header__buttons id="headerBtn" ">
+									<a href="#!" class="btn btn_gray">Login</a>
+									<a href="#!" class="btn btn_blue">Sign up</a>
+	            </div>
+         </nav>
+          </div>
+        </div>
+      </header>
+      <div class="slider" id="slider"></div>
+
+      <main class="main">
+        <section class="audience container">
+          <h1 class="audience__title">
+            Own your audience.<br />
+            <span>So you don't lose them.</span>
+          </h1>
+          <div class="audience__box">
+            <p class="audience__text">
+              Turn your audience into email and text message subscribers.
+            </p>
+            <div class="audience__buttons">
+              <a href="#!" class="btn btn_blue btn_blue--audience"
+                >Get started now</a
+              >
+              <a href="#!" class="btn btn_gray btn_gray--audience"
+                >View a demo</a
+              >
+            </div>
+            <p class="audience__counter">
+              <span>1000+</span> creators have already started
+            </p>
+          </div>
+        </section>
+
+        <section class="choose-us container">
+          <!-- Общий заголовок -->
+          <h2 class="section__title choose-us_title">
+            Why creators love marico
+          </h2>
+          <ul class="choose-us-list">
+            <li class="choose-us-list__item choose-us_item">
+              <img
+                src="./images/home/Smile_emoji.png"
+                alt="Smile_emoji"
+                class="choose-us_item__img"
+              />
+              <h3 class="choose-us_item__title">Reduced anxiety</h3>
+              <p class="choose-us_item__description">
+                Never worry about losing your audience.
+              </p>
+            </li>
+            <li class="choose-us-list__item choose-us_item">
+              <img
+                src="./images/home/Happy_emoji.png"
+                alt="Smile_emoji"
+                class="choose-us_item__img"
+              />
+              <h3 class="choose-us_item__title">Lower workload</h3>
+              <p class="choose-us_item__description">
+                Just share one link. We'll handle the rest.
+              </p>
+            </li>
+            <li class="choose-us-list__item choose-us_item">
+              <img
+                src="./images/home/Party_emoji.png"
+                alt="Smile_emoji"
+                class="choose-us_item__img"
+              />
+              <h3 class="choose-us_item__title">More time</h3>
+              <p class="choose-us_item__description">
+                Spend less time on marketing tools.
+              </p>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
