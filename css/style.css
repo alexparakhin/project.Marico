@@ -70,7 +70,7 @@ body {
 }
 .nav-list {
   display: flex;
-  padding: 0px 17rem;
+  padding: 0 15vw 0 0;
 }
 .nav-list > *:not(:last-child) {
   margin-right: 40px;
@@ -128,61 +128,72 @@ body {
   transform: translate3d(0px, -2px, 20px);
 }
 
-@media screen and (max-width: 1633px) {
+@media screen and (max-width: 4000px) {
   .nav-list {
-    padding: 0px 15rem;
+    padding: 0 9vw 0 0;
   }
 }
-@media screen and (max-width: 1530px) {
+@media screen and (max-width: 3600px) {
   .nav-list {
-    padding: 0px 12rem;
+    padding: 0 10vw 0 0;
   }
 }
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 3200px) {
   .nav-list {
-    padding: 0px 11rem;
+    padding: 0 11vw 0 0;
   }
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 2800px) {
   .nav-list {
-    padding: 0px 10rem;
+    padding: 0 12vw 0 0;
+  }
+}
+@media screen and (max-width: 2600px) {
+  .nav-list {
+    padding: 0 15vw 0 0;
+  }
+}
+@media screen and (max-width: 2300px) {
+  .nav-list {
+    padding: 0 16vw 0 0;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .nav-list {
+    padding: 0 20vw 0 0;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .nav-list {
+    padding: 0 19vw 0 0;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .nav-list {
+    padding: 0 16vw 0 0;
   }
 }
 @media screen and (max-width: 1300px) {
   .nav-list {
-    padding: 0px 9rem;
+    padding: 0 13vw 0 0;
   }
 }
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1200px) {
   .nav-list {
-    padding: 0px 9rem;
+    padding: 0 9vw 0 0;
   }
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1070px) {
   .nav-list {
-    padding: 0px 7rem;
+    padding: 0 7vw 0 0;
   }
 }
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1000px) {
   .nav-list {
-    padding: 0px 6rem;
+    padding: 0 5vw 0 0;
   }
 }
-@media screen and (max-width: 1140px) {
-  .nav-list {
-    padding: 0px 4rem;
-  }
-}
-@media screen and (max-width: 1060px) {
-  .nav-list {
-    padding: 0px 3rem;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .nav-list {
-    padding: 0px 2rem;
-  }
-}
+
 @media screen and (max-width: 992px) {
   .header {
     min-height: 100px;
@@ -435,6 +446,6 @@ body {
 }
 
 .main {
-  margin-top: 148px;
+  margin-top: 100px;
 }
 /*backdrop-filter: blur(1rem);*/
