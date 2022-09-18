@@ -1,1 +1,1 @@
-# Clickme https://alexparakhin.github.io/project.Marico/
+[![Marico]](https://alexparakhin.github.io/project.Marico/)
